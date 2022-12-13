@@ -16,6 +16,6 @@ jobs:
 
   cd: 
     runs-on: ubuntu-latest
-    steps: needs
+    steps: 
       - name: deploy
         run: echo "deploy"
