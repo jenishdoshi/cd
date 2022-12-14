@@ -35,7 +35,7 @@ jobs:
           path: true
           tags: $ {{secrets.DOCKER_HUB_USERNAME}}/myjavaapp:latest
   cd: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: ci
     steps: 
       - name: download artifacts
